@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Susretha | CSE Student Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Susretha</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Home -->
+    <section id="home" class="home">
+
+        <div class="home-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Susretha</span></h1>
+
+            <h2>Computer Science Engineering Student</h2>
+
+            <p>
+                I am a CSE student interested in Full Stack Web Development,
+                Frontend Development and Machine Learning.
+            </p>
+
+            <div class="home-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn second-btn">Contact Me</a>
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="about-text">
+
+                <h3>Computer Science Engineering Student</h3>
+
+                <p>
+                    I am a Computer Science Engineering student passionate
+                    about creating websites and learning modern technologies.
+                    I enjoy developing simple and user-friendly web
+                    applications.
+                </p>
+
+                <p>
+                    My interests include frontend development, JavaScript,
+                    Python, SQL and Machine Learning.
+                </p>
+
+                <div class="about-info">
+
+                    <p><strong>Education:</strong> B.Tech CSE</p>
+                    <p><strong>College:</strong> Trinity College of Engineering & Technology</p>
+                    <p><strong>Location:</strong> Karimnagar, Telangana</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section skills-section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Creating structured web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Designing responsive user interfaces.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Adding interactive functionality.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>Learning programming and ML concepts.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+                <p>Working with databases and queries.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Full Stack</h3>
+                <p>Learning modern web development.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fas fa-calculator"></i>
+                </div>
+
+                <h3>Calculator</h3>
+
+                <p>
+                    A responsive calculator developed using
+                    HTML, CSS and JavaScript.
+                    It performs basic arithmetic operations.
+                </p>
+
+                <div class="technology">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+
+                <h3>Food Ordering Website</h3>
+
+                <p>
+                    A frontend food ordering website where users
+                    can browse food items, view prices and manage
+                    their cart.
+                </p>
+
+                <div class="technology">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-icon">
+                    <i class="fas fa-wine-glass"></i>
+                </div>
+
+                <h3>Wine Quality Prediction</h3>
+
+                <p>
+                    A machine learning project that predicts wine
+                    quality using different input features.
+                </p>
+
+                <div class="technology">
+                    <span>Python</span>
+                    <span>Machine Learning</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Resume -->
+    <section id="resume" class="section resume-section">
+
+        <h2 class="section-title">My Resume</h2>
+
+        <div class="resume-box">
+
+            <i class="fas fa-file-alt"></i>
+
+            <h3>Download My Resume</h3>
+
+            <p>
+                View my education, technical skills, projects
+                and certifications.
+            </p>
+
+            <a href="#" class="btn" onclick="downloadResume()">
+                <i class="fas fa-download"></i>
+                Download Resume
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Let's Connect</h3>
+
+                <p>
+                    If you would like to contact me,
+                    feel free to send a message.
+                </p>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    Email: yourmail@gmail.com
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    Phone: +91 XXXXX XXXXX
+                </p>
+
+            </div>
+
+
+            <form onsubmit="sendMessage(event)">
+
+                <input type="text"
+                       id="name"
+                       placeholder="Your Name"
+                       required>
+
+                <input type="email"
+                       id="email"
+                       placeholder="Your Email"
+                       required>
+
+                <textarea id="message"
+                          placeholder="Your Message"
+                          rows="6"
+                          required></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Susretha | Personal Portfolio
+        </p>
+
+        <p>
+            Designed using HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
